@@ -10,10 +10,10 @@ export const NeoDashboardHeaderLogo = ({ resetApplication }) => {
   const content = (
     <div className='n-items-center sm:n-flex md:n-flex-1 n-justify-start'>
       <a className='n-cursor-pointer'>
-        LedgerLink
+        Ledger{" "}
         {/* <img onClick={resetApplication} className='n-h-6 n-w-auto n-m-2' src={DASHBOARD_HEADER_BRAND_LOGO} alt='Logo' /> */}
       </a>
-      {IS_CUSTOM_LOGO ? <></> : <Typography variant='h6'>Labs</Typography>}
+      {IS_CUSTOM_LOGO ? <></> : <Typography variant='h6'>Link</Typography>}
     </div>
   );
 
