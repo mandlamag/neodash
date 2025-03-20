@@ -73,7 +73,7 @@ export const NeoDashboardHeader = ({
               </Tooltip>
 
               {downloadImageEnabled && <NeoDashboardHeaderDownloadImageButton onDownloadImage={onDownloadImage} />}
-              <NeoAboutButton connection={connection} onAboutModalOpen={onAboutModalOpen} />
+              {/* <NeoAboutButton connection={connection} onAboutModalOpen={onAboutModalOpen} /> */}
               <NeoLogoutButton standaloneSettings={standaloneSettings} onConnectionModalOpen={onConnectionModalOpen} />
             </div>
           </div>
