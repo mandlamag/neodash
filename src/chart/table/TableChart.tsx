@@ -32,7 +32,29 @@ const theme = createTheme({
     fontFamily: "'Nunito Sans', sans-serif !important",
     allVariants: { color: 'rgb(var(--palette-neutral-text-default))' },
   },
+  components: {
+    MuiTablePagination: {
+      styleOverrides: {
+        root: {
+          color: 'rgb(var(--palette-neutral-text-default))',
+          '& .MuiTablePagination-selectLabel': {
+            color: 'rgb(var(--palette-neutral-text-default))',
+          },
+          '& .MuiTablePagination-select': {
+            color: 'rgb(var(--palette-neutral-text-default))',
+          },
+          '& .MuiTablePagination-selectIcon': {
+            color: 'rgb(var(--palette-neutral-text-default))',
+          },
+          '& .MuiTablePagination-displayedRows': {
+            color: 'rgb(var(--palette-neutral-text-default))',
+          },
+        },
+      },
+    },
+  },
 });
+
 const fallbackRenderer = (value) => {
   return JSON.stringify(value);
 };
