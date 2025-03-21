@@ -39,7 +39,7 @@ export const NeoWelcomeScreenModal = ({
     <div>
       <Dialog size='small' open={welcomeScreenOpen} aria-labelledby='form-dialog-title' disableCloseButton>
         <Dialog.Header id='form-dialog-title'>
-          NeoDash - Neo4j Dashboard Builder
+          LedgerLink Dashboard Builder
           <BoltIconSolid className='icon-base' color='gold' style={{ float: 'right' }} />
         </Dialog.Header>
         <Dialog.Content>
@@ -117,7 +117,7 @@ export const NeoWelcomeScreenModal = ({
             </Button>
           )}
 
-          <Tooltip title='View a gallery of live examples.' aria-label='demo' disableInteractive>
+          {/* <Tooltip title='View a gallery of live examples.' aria-label='demo' disableInteractive>
             <Button
               target='_blank'
               href='https://neodash-gallery.graphapp.io'
@@ -128,9 +128,9 @@ export const NeoWelcomeScreenModal = ({
             >
               Try a Demo
             </Button>
-          </Tooltip>
+          </Tooltip> */}
 
-          <Tooltip title='Show information about this application.' aria-label='' disableInteractive>
+          {/* <Tooltip title='Show information about this application.' aria-label='' disableInteractive>
             <Button
               onClick={onAboutModalOpen}
               style={{ marginTop: '10px', width: '100%' }}
@@ -138,10 +138,9 @@ export const NeoWelcomeScreenModal = ({
               color='neutral'
               size='large'
             >
-              {/**/}
               About
             </Button>
-          </Tooltip>
+          </Tooltip> */}
         </Dialog.Content>
         <Dialog.Actions
           style={{
@@ -153,7 +152,7 @@ export const NeoWelcomeScreenModal = ({
           }}
         >
           <div style={{ color: 'white' }}>
-            NeoDash is a tool for building standalone Neo4j dashboards. Need advice on building an integrated solution?{' '}
+            {/* NeoDash is a tool for building standalone Neo4j dashboards. Need advice on building an integrated solution?{' '}
             <TextLink
               href='https://neo4j.com/professional-services/'
               className='n-text-neutral-text-inverse'
@@ -162,7 +161,7 @@ export const NeoWelcomeScreenModal = ({
             >
               Get in touch
             </TextLink>
-            !
+            ! */}
           </div>
         </Dialog.Actions>
       </Dialog>
