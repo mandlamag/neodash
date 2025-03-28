@@ -63,7 +63,7 @@ export const NeoDashboardTitle = ({
   }
 
   useEffect(() => {
-    document.title = dashboardTitle ? `LedgerLink - ${dashboardTitle}` : 'LedgerLink - Dashboard Builder';
+    document.title = dashboardTitle ? `LedgerCore - ${dashboardTitle}` : 'LedgerCore - Dashboard Builder';
     // Reset text to the dashboard state when the page gets reorganized.
     if (dashboardTitle !== dashboardTitleText) {
       setDashboardTitleText(dashboardTitle);
