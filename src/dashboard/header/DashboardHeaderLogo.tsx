@@ -13,7 +13,7 @@ export const NeoDashboardHeaderLogo = ({ resetApplication }) => {
         Ledger{" "}
         {/* <img onClick={resetApplication} className='n-h-6 n-w-auto n-m-2' src={DASHBOARD_HEADER_BRAND_LOGO} alt='Logo' /> */}
       </a>
-      {IS_CUSTOM_LOGO ? <></> : <Typography variant='h6'>Link</Typography>}
+      {IS_CUSTOM_LOGO ? <></> : <Typography variant='h6'>Core</Typography>}
     </div>
   );
 
