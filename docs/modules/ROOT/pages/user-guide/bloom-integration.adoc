@@ -4,14 +4,14 @@ include::../banner.adoc[]
 
 include::../banner.adoc[]
 
-NeoDash can be linked to Neo4j Bloom perspectives by using
+LedgerCore can be linked to Neo4j Bloom perspectives by using
 https://neo4j.com/docs/bloom-user-guide/current/bloom-tutorial/deep-links/[Bloom
 Deep Links]. This functionality allows you to combine the power of graph
-reporting (NeoDash) with intuitive graph exploration (Bloom).
+reporting (LedgerCore) with intuitive graph exploration (Bloom).
 
 == Bloom Deep-Linking
 
-To link NeoDash to a Bloom perspective, you will need to: 
+To link LedgerCore to a Bloom perspective, you will need to: 
 
 1. Create a Neo4j Bloom https://neo4j.com/docs/bloom-user-guide/current/bloom-perspectives/bloom-perspectives/[perspective].
 2. Define a https://neo4j.com/docs/bloom-user-guide/current/bloom-tutorial/search-phrases-advanced/[Bloom

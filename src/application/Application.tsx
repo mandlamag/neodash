@@ -54,7 +54,7 @@ const NeoAboutModal = React.lazy(() => import('../modal/AboutModal'));
 const Dashboard = React.lazy(() => import('../dashboard/Dashboard'));
 
 /**
- * This is the main application component for NeoDash.
+ * This is the main application component for LedgerCore.
  * It contains:
  * - The Dashboard component
  * - A number of modals (pop-up windows) that handle connections, loading/saving dashboards, etc.

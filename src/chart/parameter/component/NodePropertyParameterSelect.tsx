@@ -46,7 +46,7 @@ const NodePropertyParameterSelectComponent = (props: ParameterSelectProps) => {
   const autoSelectFirstValue =
     props.settings && props.settings.autoSelectFirstValue ? props.settings.autoSelectFirstValue : false;
 
-  // index of the display value in the resulting extra records retrieved by the component when the user types. equals '1' for NeoDash 2.2.2 and later.
+  // index of the display value in the resulting extra records retrieved by the component when the user types. equals '1' for LedgerCore 2.2.2 and later.
   const displayValueRowIndex = props.compatibilityMode
     ? 0
     : extraRecords[0]?.keys?.findIndex((e) => e.toLowerCase() == 'display') || 0;

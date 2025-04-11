@@ -4,7 +4,7 @@ include::../banner.adoc[]
 
 include::../banner.adoc[]
 
-Next to being a dashboard editor, NeoDash can be deployed in a
+Next to being a dashboard editor, LedgerCore can be deployed in a
 `standalone mode' - allowing you set up a architecture to publish and
 read dashboards.
 
@@ -14,14 +14,14 @@ Running in standalone modec mode will:
 - Have a hardcoded Neo4j URL and database name 
 - Load a dashboard from Neo4j with a fixed name.
 
-The diagram below illustrates how NeoDash standalone mode can be
+The diagram below illustrates how LedgerCore standalone mode can be
 deployed next to a standard `Editor Mode' instance:
 
 image:standalone-architecture.png[image]
 
 == Option 1 - Standard Deployment (Non-Docker)
 
-First, build NeoDash as described link:../build-and-run[here]. After
+First, build LedgerCore as described link:../build-and-run[here]. After
 building, you’ll have a `dist` directory that you can deploy to a web
 server.
 
@@ -69,7 +69,7 @@ deployment can be used.
 ____
 
 == Deep Linking
-To dynamically view a deployed NeoDash dashboard, you can deep-link into a deployed dashboard.
+To dynamically view a deployed LedgerCore dashboard, you can deep-link into a deployed dashboard.
  the following deeplinking options are available via URL parameters:
 - Appending `?page=1` to the URL will open up a dashboard at a given page. (Starting at zero).
 - Appending `?neodash_person_name=Tom` to the URL will set a dashboard parameter as a default for the entire dashboard.

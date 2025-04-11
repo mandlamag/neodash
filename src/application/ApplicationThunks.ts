@@ -370,10 +370,10 @@ export const onConfirmLoadSharedDashboardThunk = () => (dispatch: any, getState:
 };
 
 /**
- * Initializes the NeoDash application.
+ * Initializes the LedgerCore application.
  *
  * This is a multi step process, starting with loading the runtime configuration.
- * This is present in the file located at /config.json on the URL where NeoDash is deployed.
+ * This is present in the file located at /config.json on the URL where LedgerCore is deployed.
  * Note: this does not work in Neo4j Desktop, so we revert to defaults.
  */
 export const loadApplicationConfigThunk = () => async (dispatch: any, getState: any) => {
@@ -580,7 +580,7 @@ export const loadApplicationConfigThunk = () => async (dispatch: any, getState: 
   }
 };
 
-// Set up NeoDash to run in editor mode.
+// Set up LedgerCore to run in editor mode.
 export const initializeApplicationAsEditorThunk = (_, paramsToSetAfterConnecting) => (dispatch: any) => {
   const clearNotificationAfterLoad = true;
   dispatch(clearDesktopConnectionProperties());
@@ -611,7 +611,7 @@ export const initializeApplicationAsEditorThunk = (_, paramsToSetAfterConnecting
   dispatch(setAboutModalOpen(false));
 };
 
-// Set up NeoDash to run in standalone mode.
+// Set up LedgerCore to run in standalone mode.
 export const initializeApplicationAsStandaloneThunk =
   (config, paramsToSetAfterConnecting) => (dispatch: any, getState: any) => {
     const clearNotificationAfterLoad = true;

@@ -2,10 +2,10 @@
 
 include::../banner.adoc[]
 
-If you have a pre-built NeoDash application, you can easily deploy it on an any webserver.
-A NeoDash build is "just" a collection of HTML, CSS and JavaScript files, so it can run virtually anywhere.
+If you have a pre-built LedgerCore application, you can easily deploy it on an any webserver.
+A LedgerCore build is "just" a collection of HTML, CSS and JavaScript files, so it can run virtually anywhere.
 
-This guide walks you through the process of deploying a NeoDash build onto your own webserver.
+This guide walks you through the process of deploying a LedgerCore build onto your own webserver.
 
 == 1. Prepare the files
 First, check that you have the correct files.
@@ -25,7 +25,7 @@ tar -xf neodash-2.X.X.tar.gz
 After running either of these, you should now have a folder `neodash-2.X.X` in the current directory.
 
 == 2. Edit Configuration (Optional)
-This is an optional step if you want to configure optional settings for your NeoDash deployment (e.g. SSO or standalone mode).
+This is an optional step if you want to configure optional settings for your LedgerCore deployment (e.g. SSO or standalone mode).
 
 1. Inside the folder you just unzipped, open up `config.json`. 
 2. Edit this file to modify your link:../configuration[Configuration] settings.
@@ -43,5 +43,5 @@ As an example - to copy the files to an nginx webserver using `scp`:
 scp neodash-2.4.10-labs username@host:/usr/share/nginx/html
 ```
 
-NeoDash should now be visible by visiting your (sub)domain in the browser.
+LedgerCore should now be visible by visiting your (sub)domain in the browser.
  Can't see the application? Check that the webserver user has read-permissions on the files you copied into the HTML directory.

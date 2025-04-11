@@ -70,7 +70,7 @@ export const EXTENSIONS: Record<string, Extension> = {
     customLoadingIcon: GPT_LOADING_ICON,
     settingsMenuButton: QueryTranslatorButton,
     description:
-      'Use natural language to generate Cypher queries in NeoDash. Connect to an LLM through an API, and let NeoDash use your database schema + the report types to generate queries automatically. This extension requires APOC Core installed inside Neo4j.',
+      'Use natural language to generate Cypher queries in LedgerCore. Connect to an LLM through an API, and let LedgerCore use your database schema + the report types to generate queries automatically. This extension requires APOC Core installed inside Neo4j.',
     link: 'https://neo4j.com/professional-services/',
   },
   forms: {

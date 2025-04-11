@@ -20,8 +20,8 @@ after it has been published.
 
 == Architecture
 
-NeoDash enables the Build, Publish, View workflow by having two seperate
-deployments of the NeoDash application: 
+LedgerCore enables the Build, Publish, View workflow by having two seperate
+deployments of the LedgerCore application: 
 
 1. An `editor` deployment for the build phase. 
 2. A `viewer` deployment for the view phase.
@@ -30,7 +30,7 @@ The *editor* deployment is the app you are using from Neo4j Desktop,
 from https://neodash.graphapp.io, or from your own deployment.
 
 The *viewer* deployment will require some configuration to be set up.
-These three configurations must be set for NeoDash to be able to run in
+These three configurations must be set for LedgerCore to be able to run in
 `View' mode: 
 
 1. A flag telling the app to disable all editing features.

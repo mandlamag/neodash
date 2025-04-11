@@ -1,7 +1,9 @@
-# NeoDash Dashboard Gallery 🎨
-This is the source code for the NeoDash dashboard gallery located at [https://neodash-gallery.graphapp.io](https://neodash-gallery.graphapp.io).
+# LedgerCore Dashboard Gallery 🎨
+
+This is the source code for the LedgerCore dashboard gallery located at [https://neodash-gallery.graphapp.io](https://neodash-gallery.graphapp.io).
 
 ## Run the app locally
+
 This app is built with React, Tailwind and the Neo4j Design Language.
 
 - `yarn install` installs the dependencies.
@@ -9,8 +11,10 @@ This app is built with React, Tailwind and the Neo4j Design Language.
 - `yarn build` builds the app for production.
 
 ## Contribute to the Gallery
+
 Want to add a dashboard to the gallery?
 Create an [issue on GitHub](https://github.com/neo4j-labs/neodash/issues) with the following information:
+
 - Your name.
 - A URL to your page (GitHub, LinkedIn, Personal Website, ...)
 - The name of your dashboard.

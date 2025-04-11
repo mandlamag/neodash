@@ -18,7 +18,7 @@ It takes two fields:
 
 [source,cypher]
 ----
-MATCH (:Company{name:'NeoDash'})-[:HAS_DEPARTMENT]->(:Department)<-[:IN_DEPARTMENT]-(e:Employee),
+MATCH (:Company{name:'LedgerCore'})-[:HAS_DEPARTMENT]->(:Department)<-[:IN_DEPARTMENT]-(e:Employee),
 (e)-[:LIVES]->(city:City)-[:IN_COUNTRY]->(country:Country)
 WITH city, country
 CALL {

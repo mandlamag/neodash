@@ -31,7 +31,7 @@ export const NeoParameterSelectionChart = (props: ChartProps) => {
   const multiSelector = props?.settings?.multiSelector;
   const multiline = props?.settings?.multiline;
   const manualParameterSave = props?.settings?.manualParameterSave;
-  // in NeoDash 2.2.1 or earlier, there was no means to have a different display value in the selector. This condition handles that.
+  // in LedgerCore 2.2.1 or earlier, there was no means to have a different display value in the selector. This condition handles that.
   const compatibilityMode = !query?.toLowerCase().includes('as display') || false;
 
   if (!query || query.trim().length == 0) {

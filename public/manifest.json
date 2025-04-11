@@ -1,6 +1,6 @@
 {
-    "short_name": "NeoDash",
-    "name": "NeoDash",
+    "short_name": "LedgerCore",
+    "name": "LedgerCore",
     "homepage": "https://github.com/neo4j-labs/neodash/",
     "neo4jDesktop": {
         "apiVersion": "^1.2.0"

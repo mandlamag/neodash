@@ -22,7 +22,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   return false;
 });
 
-describe('NeoDash E2E Tests', () => {
+describe('LedgerCore E2E Tests', () => {
   beforeEach(() => {
     page.init().createNewDashboard().connectToNeo4j();
     cy.wait(100);

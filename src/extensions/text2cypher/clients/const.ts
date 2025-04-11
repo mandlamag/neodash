@@ -78,10 +78,10 @@ export const reportExampleQueries = {
   graph: `MATCH (p:Person)-[a:ACTED_IN]->(m:Movie) WHERE m.title = 'The Matrix' RETURN p, a, m`,
   'Bar Chart': 'MATCH (p:Person)-[e]->(m:Movie) RETURN m.title as Title, COUNT(p) as People',
   'Line Chart': 'MATCH (p:Person) RETURN (p.born/10)*10 as Decade, COUNT(p) as People ORDER BY Decade ASC',
-  sunburst: `MATCH path=(:Company{name:'NeoDash'})-[:HAS_DEPARTMENT*]->(:Department) WITH nodes(path) as no WITH no, last(no) as leaf WITH  [n IN no[..-1] | n.name] AS result, sum(leaf.employees) as val RETURN result, val`,
-  'Circle Packing': `MATCH path=(:Company{name:'NeoDash'})-[:HAS_DEPARTMENT*]->(:Department) WITH nodes(path) as no WITH no, last(no) as leaf WITH  [n IN no[..-1] | n.name] AS result, sum(leaf.employees) as val RETURN result, val`,
-  choropleth: `MATCH (:Company{name:'NeoDash'})-[:HAS_DEPARTMENT]->(:Department)<-[:IN_DEPARTMENT]-(e:Employee),(e)-[:LIVES_IN]->(c:Country) WITH c.code as code, count(e) as value RETURN code, value`,
-  'Area Map': `MATCH (:Company{name:'NeoDash'})-[:HAS_DEPARTMENT]->(:Department)<-[:IN_DEPARTMENT]-(e:Employee),
+  sunburst: `MATCH path=(:Company{name:'LedgerCore'})-[:HAS_DEPARTMENT*]->(:Department) WITH nodes(path) as no WITH no, last(no) as leaf WITH  [n IN no[..-1] | n.name] AS result, sum(leaf.employees) as val RETURN result, val`,
+  'Circle Packing': `MATCH path=(:Company{name:'LedgerCore'})-[:HAS_DEPARTMENT*]->(:Department) WITH nodes(path) as no WITH no, last(no) as leaf WITH  [n IN no[..-1] | n.name] AS result, sum(leaf.employees) as val RETURN result, val`,
+  choropleth: `MATCH (:Company{name:'LedgerCore'})-[:HAS_DEPARTMENT]->(:Department)<-[:IN_DEPARTMENT]-(e:Employee),(e)-[:LIVES_IN]->(c:Country) WITH c.code as code, count(e) as value RETURN code, value`,
+  'Area Map': `MATCH (:Company{name:'LedgerCore'})-[:HAS_DEPARTMENT]->(:Department)<-[:IN_DEPARTMENT]-(e:Employee),
   (e)-[:LIVES]->(city:City)-[:IN_COUNTRY]->(country:Country)
   WITH city, country
   CALL {
@@ -93,7 +93,7 @@ export const reportExampleQueries = {
   }
   WITH code, sum(value) as totalCount
   RETURN code,totalCount`,
-  treemap: `MATCH path=(:Company{name:'NeoDash'})-[:HAS_DEPARTMENT*]->(:Department) WITH nodes(path) as no WITH no, last(no) as leaf WITH  [n IN no[..-1] | n.name] AS result, sum(leaf.employees) as val RETURN result, val`,
+  treemap: `MATCH path=(:Company{name:'LedgerCore'})-[:HAS_DEPARTMENT*]->(:Department) WITH nodes(path) as no WITH no, last(no) as leaf WITH  [n IN no[..-1] | n.name] AS result, sum(leaf.employees) as val RETURN result, val`,
   'Radar Chart': `MATCH (s:Skill) 
   MATCH (:Player{name:"Messi"})-[h1:HAS_SKILL]->(s) 
   MATCH (:Player{name:"Mbappe"})-[h2:HAS_SKILL]->(s) 

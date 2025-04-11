@@ -13,7 +13,7 @@ This entails code architecture, as well as UX/UI design.
 
 == File Structure
 
-The source code of NeoDash is organized as a flat file structure based
+The source code of LedgerCore is organized as a flat file structure based
 on components. Given a component `ABC` is to be added, you should create
 a directory called `abc` with the following files:
 
@@ -41,7 +41,7 @@ Dockerfile: docker image definition.
 
 == UX Design
 
-At it’s core, NeoDash aims to be a tool that is _easy to learn, but hard
+At it’s core, LedgerCore aims to be a tool that is _easy to learn, but hard
 to master_. This translates into the following five design principles in
 mind:
 

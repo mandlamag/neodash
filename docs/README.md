@@ -1,6 +1,6 @@
-# NeoDash Documentation
+# LedgerCore Documentation
 
-This folder contains the documentation for the NeoDash project. The pages are written in AsciiDoc, and generated into webpages by Antora.
+This folder contains the documentation for the LedgerCore project. The pages are written in AsciiDoc, and generated into webpages by Antora.
 
 An external workflow picks up this directory, embeds it into the Neo4j docs, and makes sure generated files are automatically deployed to:
 ```

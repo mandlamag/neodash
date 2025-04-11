@@ -128,7 +128,7 @@ export const NeoShareModal = ({ open, handleClose, connection }) => {
                 value={shareStandalone}
                 style={{ marginLeft: '0px', width: '100%', marginBottom: '10px' }}
                 type={SELECTION_TYPES.LIST}
-                helperText={'Share the dashboard as a standalone webpage, without the NeoDash editor.'}
+                helperText={'Share the dashboard as a standalone webpage, without the LedgerCore editor.'}
                 label={'Standalone Dashboard'}
                 defaultValue={'No'}
                 choices={['Yes', 'No']}

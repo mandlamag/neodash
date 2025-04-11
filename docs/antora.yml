@@ -1,6 +1,6 @@
 name: neodash
 version: 2.4
-title: NeoDash
+title: LedgerCore
 start_page: ROOT:index.adoc
 nav:
   - modules/ROOT/nav.adoc
@@ -8,6 +8,6 @@ nav:
 asciidoc:
   attributes:
     docs-version: 2.4
-    page-product: NeoDash
-    page-type: NeoDash Manual
+    page-product: LedgerCore
+    page-type: LedgerCore Manual
     page-canonical-root: /labs

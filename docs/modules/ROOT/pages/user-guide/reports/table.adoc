@@ -4,7 +4,7 @@
 include::../../banner.adoc[]
 
 The most common report in a dashboard is often a simple table view.
-NeoDash contains a powerful table component that can render all the data
+LedgerCore contains a powerful table component that can render all the data
 returned by a Cypher query. This includes simple data like numbers or
 text, but also Neo4j native data like nodes, relationships, and paths.
 

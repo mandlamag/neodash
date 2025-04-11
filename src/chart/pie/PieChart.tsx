@@ -10,7 +10,7 @@ import { extensionEnabled } from '../../utils/ReportUtils';
 import { objMerge } from '../../utils/ObjectManipulation';
 
 /**
- * Embeds a PieChart (from Nivo) into NeoDash.
+ * Embeds a PieChart (from Nivo) into LedgerCore.
  */
 const NeoPieChart = (props: ChartProps) => {
   const { records } = props;

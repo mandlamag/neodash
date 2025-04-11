@@ -6,7 +6,7 @@ import { recordToNative } from '../../../../chart/ChartUtils';
 import { NoDrawableDataErrorMessage } from '../../../../component/editor/CodeViewerComponent';
 
 /**
- * Embeds a NeoChoroplethMapChart (from Charts) into NeoDash.
+ * Embeds a NeoChoroplethMapChart (from Charts) into LedgerCore.
  */
 const NeoChoroplethMapChart = (props: ChartProps) => {
   const { records } = props;
@@ -16,7 +16,7 @@ const NeoChoroplethMapChart = (props: ChartProps) => {
   // const feature = globeFeature;
   const [feature, setFeature] = useState({ features: [] });
   // TODO Think of a way to make it configurable to fetch vector data.
-  // It makes sense to ship this JSON with NeoDash deployments that are behind some firewall and can't access this site.
+  // It makes sense to ship this JSON with LedgerCore deployments that are behind some firewall and can't access this site.
   useEffect(() => {
     fetch('https://raw.githubusercontent.com/neo4j-labs/neodash-static/main/world_polymap.json')
       .then((res) => res.json())

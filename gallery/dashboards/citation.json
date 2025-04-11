@@ -9,7 +9,10 @@
       "neodash_community_property": "2892",
       "neodash_title": "Modeling of architectures with UML panel"
     },
-    "extensions": ["core", "actions"]
+    "extensions": [
+      "core",
+      "actions"
+    ]
   },
   "pages": [
     {
@@ -17,7 +20,7 @@
       "reports": [
         {
           "title": "Summary",
-          "query": "**Citation graph in scientific research**\n\nThe data used is from the DBLP Citation Network, which includes citation data from various academic sources.\nYou can recreate the database with [this guide](https://neo4j.com/developer/graph-data-science/link-prediction/graph-data-science-library/).\n\nThis dashboard will explore the following use cases :\n- Topic extraction\n- Recommendation\n- Using Bloom with NeoDash to extend the data exploration capabilities\n\nBut first, here is an overview of the data.",
+          "query": "**Citation graph in scientific research**\n\nThe data used is from the DBLP Citation Network, which includes citation data from various academic sources.\nYou can recreate the database with [this guide](https://neo4j.com/developer/graph-data-science/link-prediction/graph-data-science-library/).\n\nThis dashboard will explore the following use cases :\n- Topic extraction\n- Recommendation\n- Using Bloom with LedgerCore to extend the data exploration capabilities\n\nBut first, here is an overview of the data.",
           "width": 3,
           "height": 2,
           "x": 0,

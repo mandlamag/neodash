@@ -47,12 +47,12 @@ function App() {
       {/* Header */}
       <div className='n-bg-neutral-10'>
         <div className='md:container md:mx-auto m-5 p-8 '>
-          <h3 className='flex item-center justify-center'>NeoDash Dashboard Gallery 🎨</h3>
+          <h3 className='flex item-center justify-center'>LedgerCore Dashboard Gallery 🎨</h3>
           <p className='flex item-center justify-center'>
-            This page contains a set of sample NeoDash dashboards built on public data.
+            This page contains a set of sample LedgerCore dashboards built on public data.
           </p>
           <p className='flex item-center justify-center'>
-            This gallery is created and maintained by the NeoDash community.
+            This gallery is created and maintained by the LedgerCore community.
           </p>
           <div className='flex item-center justify-center p-2'>
             <TextInput

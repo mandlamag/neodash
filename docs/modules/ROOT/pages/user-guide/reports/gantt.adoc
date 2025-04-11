@@ -6,7 +6,7 @@ include::../../banner.adoc[]
 link:../../extensions/advanced-visualizations[label:Advanced&nbsp;Visualization[]]
 
 A Gantt chart can be used to visualize tasks on a timeline, as well as their dependencies.
-The NeoDash Gantt chart views your tasks are nodes in the graph, and your relationships are dependencies between them.
+The LedgerCore Gantt chart views your tasks are nodes in the graph, and your relationships are dependencies between them.
 
 To use the Sankey chart, nodes must have at least three properties on them:
 

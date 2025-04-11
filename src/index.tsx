@@ -32,7 +32,7 @@ if (window.location.href.includes('//neodash.graphapp.io/')) {
   });
 }
 /**
- * Set up the NeoDash application and wrap it in the needed providers.
+ * Set up the LedgerCore application and wrap it in the needed providers.
  */
 const store = configureStore();
 
@@ -44,7 +44,7 @@ await StyleConfig.getInstance();
 /** Wrap the application in a redux provider / browser cache persistance gate **/
 const provider = (
   <ReduxProvider store={store}>
-    <PersistGate persistor={persister} loading={<div>Loading NeoDash...</div>}>
+    <PersistGate persistor={persister} loading={<div>Loading LedgerCore...</div>}>
       <Application />
     </PersistGate>
   </ReduxProvider>

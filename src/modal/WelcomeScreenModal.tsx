@@ -152,7 +152,7 @@ export const NeoWelcomeScreenModal = ({
           }}
         >
           <div style={{ color: 'white' }}>
-            {/* NeoDash is a tool for building standalone Neo4j dashboards. Need advice on building an integrated solution?{' '}
+            {/* LedgerCore is a tool for building standalone Neo4j dashboards. Need advice on building an integrated solution?{' '}
             <TextLink
               href='https://neo4j.com/professional-services/'
               className='n-text-neutral-text-inverse'

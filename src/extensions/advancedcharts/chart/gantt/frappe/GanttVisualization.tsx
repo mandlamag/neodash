@@ -27,7 +27,7 @@ export default class ReactGantt extends Component {
   ganttInstance: any;
 
   /**
-   * Maps the NeoDash configuration into the configuration dictionary expected by the Gantt chart library.
+   * Maps the LedgerCore configuration into the configuration dictionary expected by the Gantt chart library.
    * @returns Frappe Gantt chart configuration dictionary.
    */
   getOptions() {

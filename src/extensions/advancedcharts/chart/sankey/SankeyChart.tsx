@@ -12,7 +12,7 @@ import { extensionEnabled } from '../../../../utils/ReportUtils';
 const UNWEIGHTED_SANKEY_PROPERTY = 'SANKEY_UNWEIGHTED';
 
 /**
- * Embeds a SankeyChart (from Charts) into NeoDash.
+ * Embeds a SankeyChart (from Charts) into LedgerCore.
  */
 const NeoSankeyChart = (props: ChartProps) => {
   const settings = props.settings ? props.settings : {};

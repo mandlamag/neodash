@@ -4,7 +4,7 @@ include::../banner.adoc[]
 
 include::../banner.adoc[]
 
-NeoDash is an application with a complex internal state. If you are
+LedgerCore is an application with a complex internal state. If you are
 planning to extend the application state in some way, make sure you are
 familiar with https://redux.js.org/[Redux] design patterns.
 
@@ -42,7 +42,7 @@ is changed when a dashboard gets loaded, modified or removed.
 - `application`: all state related to the application itself. This
 describes which windows are open, what database you are connected to,
 etc. 
-- `version`: the version of NeoDash that is running. Note that
+- `version`: the version of LedgerCore that is running. Note that
 these are complete version numbers (of the shape X.Y.Z), unlike
 dashboard versions, which have a different versioning scheme.
 

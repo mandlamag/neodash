@@ -32,7 +32,7 @@ Reports can be deleted by opening the report settings, and clicking the
 
 == Re-order Reports
 
-As of NeoDash 2.1, reports can be re-ordered by dragging and dropping
+As of LedgerCore 2.1, reports can be re-ordered by dragging and dropping
 them around the page. To move a report, grab it by the handle (top left
 corner), and drag it to the desired location.
 
@@ -40,7 +40,7 @@ image::movereport.gif[Report]
 
 == Resize Reports
 
-As of NeoDash 2.1, reports can be resized by grabbing their bottom-right
+As of LedgerCore 2.1, reports can be resized by grabbing their bottom-right
 corner, and dragging your mouse to the desired size.
 
 image::resizereport.gif[Report]
@@ -64,7 +64,7 @@ relationships, whereas a line chart expects numbers.
 
 == Row Limiting
 
-NeoDash has a built-in post-query *row limiter*. This means that results
+LedgerCore has a built-in post-query *row limiter*. This means that results
 are truncated to a maximum number of rows, depending on the report type.
 The row limiter is in place to ensure that visualizations do not become
 too complex for the browser to handle.

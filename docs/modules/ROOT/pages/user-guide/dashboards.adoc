@@ -4,7 +4,7 @@ include::../banner.adoc[]
 
 include::../banner.adoc[]
 
-In NeoDash, a dashboard consists of several pages, each of which can
+In LedgerCore, a dashboard consists of several pages, each of which can
 consist of multiple reports.
 
 image::dashboardnew.png[Dashboard]
@@ -20,7 +20,7 @@ how reports work.
 
 == Dashboard Management
 
-After startup up NeoDash, you will be given the choice to create a new
+After startup up LedgerCore, you will be given the choice to create a new
 dashboard or open an existing one (if available). After being connected,
 the buttons on the sidebar can be used to save, load or share a
 dashboard.
@@ -29,7 +29,7 @@ image::dashboardnewsettings.png[Save/Load/Share Button]
 
 === Save a Dashboard
 
-A NeoDash dashboard is, simply put, a JSON file. As an example, the
+A LedgerCore dashboard is, simply put, a JSON file. As an example, the
 default dashboard has the following structure:
 
 ....
@@ -115,9 +115,9 @@ warned*, when using this feature, the share link will contain the
 database credentials, which can be a security risk. 
 - If the dashboard should be viewed in `editor mode', or `standalone mode'. The latter configures neodash to run in a stripped down UI without any of the editor features enabled.
 
-When creating a NeoDash deployment on a production database, it is not
+When creating a LedgerCore deployment on a production database, it is not
 recommended to use the `Share' feature. Rather, set up a dedicated
-standalone deployment of NeoDash. See Publishing for more infomation.
+standalone deployment of LedgerCore. See Publishing for more infomation.
 
 === Dashboard Access Control
 With this feature, you can manage dashboard access by leveraging the native Neo4j Role-based Access Control (RBAC) functionality. Attach additional labels to the currently selected dashboard node within this window, either by utilizing existing labels in your database or creating new ones, to regulate access permissions. 
@@ -169,7 +169,7 @@ parameters.
 
 Dashboard parameters are key-value pairs that can be used inside the
 queries of reports. A convention is that a dashboard parameter in
-NeoDash will always start with `$neodash_`.
+LedgerCore will always start with `$neodash_`.
 
 Parameters can only be set (and unset) using the
 link:../reports/parameter-select[Parameter Select] reports. After setting a
@@ -184,7 +184,7 @@ RETURN m, a, p
 
 === Deep-Linking Parameters
 
-For browser-based NeoDash deployments, you set NeoDash parameters by
+For browser-based LedgerCore deployments, you set LedgerCore parameters by
 means of URL parameters. For example, when a user visits the following
 URL:
 

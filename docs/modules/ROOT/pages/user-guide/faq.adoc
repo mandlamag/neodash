@@ -4,38 +4,38 @@ include::../banner.adoc[]
 
 include::../banner.adoc[]
 
-== 1. How can I learn more about NeoDash?
+== 1. How can I learn more about LedgerCore?
 
 To learn more, check out the following list of resources (blogs, videos
 and sites): 
 
-- https://www.youtube.com/watch?v=Ygzj0Y4cYm4[NeoDash 2.0 in
+- https://www.youtube.com/watch?v=Ygzj0Y4cYm4[LedgerCore 2.0 in
 Five Minutes] 
-- https://www.youtube.com/watch?v=vjZ9M7JpExA[NeoDash 2.0 - Hands On at Neo4j Live] 
-- https://medium.com/p/ddc938ff82fa[Investigating Supply Chains with NeoDash] 
-- https://thatdavestevens.medium.com/social-recommendations-slack-neo4j-and-neodash-fe916588e65b[Social Recommendations with Neo4j & NeoDash] 
-- https://neo4j.com/developer-blog/bitcoin-transactions-dashboard-neo4j-neodash/[Real-Time Dashboard of Bitcoin Transactions With Neo4j and NeoDash]
+- https://www.youtube.com/watch?v=vjZ9M7JpExA[LedgerCore 2.0 - Hands On at Neo4j Live] 
+- https://medium.com/p/ddc938ff82fa[Investigating Supply Chains with LedgerCore] 
+- https://thatdavestevens.medium.com/social-recommendations-slack-neo4j-and-neodash-fe916588e65b[Social Recommendations with Neo4j & LedgerCore] 
+- https://neo4j.com/developer-blog/bitcoin-transactions-dashboard-neo4j-neodash/[Real-Time Dashboard of Bitcoin Transactions With Neo4j and LedgerCore]
 - https://medium.com/@a.emrevarol/european-natural-gas-network-via-knowledge-graph-3c3decb5f2ec[European
 Natural Gas Pipelines] 
 - http://blog.bruggen.com/2020/11/exporting-spotify-playlists-into-neo4j.html[Exporting Spotify Playlists into Neo4j] 
-- https://nielsdejong.nl/neo4j%20projects/2021/12/14/neodash-2.0-a-brand-new-way-of-visualizing-neo4j-data.html[NeoDash
+- https://nielsdejong.nl/neo4j%20projects/2021/12/14/neodash-2.0-a-brand-new-way-of-visualizing-neo4j-data.html[LedgerCore
 2.0 Release Overview] 
-- https://nielsdejong.nl/neo4j%20projects/2021/06/06/neodash-1.1-extensible-interactive-dashboards.html[NeoDash
+- https://nielsdejong.nl/neo4j%20projects/2021/06/06/neodash-1.1-extensible-interactive-dashboards.html[LedgerCore
 1.1 Release Overview] 
-- https://nielsdejong.nl/neo4j%20projects/2020/11/16/neodash[NeoDash 1.0
+- https://nielsdejong.nl/neo4j%20projects/2020/11/16/neodash[LedgerCore 1.0
 Release Overview]
 
-_Have a blog post about NeoDash you’d like to share? Let us know and we
+_Have a blog post about LedgerCore you’d like to share? Let us know and we
 can add it to this list!_
 
-== 2. Is NeoDash free to use?
+== 2. Is LedgerCore free to use?
 
-NeoDash 2.X is available under the
+LedgerCore 2.X is available under the
 https://www.apache.org/licenses/LICENSE-2.0[Apache 2.0 license], which
 means you can use it for free for with your project.
 
 ____
-Keep in mind! As NeoDash is a https://neo4j.com/labs/[Neo4j Labs]
+Keep in mind! As LedgerCore is a https://neo4j.com/labs/[Neo4j Labs]
 project, it is not part of the official Neo4j product suite, and is not
 supported as part of a Neo4j license. (See also question #8 below…)
 ____
@@ -44,18 +44,18 @@ ____
 
 When you’re done building a dashboard and want to show to others as a
 read-only web page, you can set up a link:standalone%20mode[Standalone
-Mode] deployment of NeoDash.
+Mode] deployment of LedgerCore.
 
-If you need help setting this up, please contact the NeoDash team.
+If you need help setting this up, please contact the LedgerCore team.
 
-== 4. Is NeoDash Production Ready?
+== 4. Is LedgerCore Production Ready?
 
-NeoDash Labs is an experimental tool without official support.
-For production-grade usage with Neo4j Enterprise Edition, we recommend a `NeoDash commercial` license.
+LedgerCore Labs is an experimental tool without official support.
+For production-grade usage with Neo4j Enterprise Edition, we recommend a `LedgerCore commercial` license.
 
-== 5. Can I use NeoDash with Neo4j Community Edition?
+== 5. Can I use LedgerCore with Neo4j Community Edition?
 
-Yes, NeoDash can be used with any type of Neo4j deployment (On-premise,
+Yes, LedgerCore can be used with any type of Neo4j deployment (On-premise,
 cloud, or fully managed in Neo4j Aura). We do however recommend that you use the
 Enterprise version, as it lets you create a
 dedicated read-only user for reporting.
@@ -68,17 +68,17 @@ will be addressed on a best-effort basis.
 If you’re looking for a specific feature with high priority, you can
 reach out to the Neo4j team.
 
-== 7. How can I contribute to NeoDash myself?
+== 7. How can I contribute to LedgerCore myself?
 
-NeoDash is an open-source tool that can be extended by anyone. If you
+LedgerCore is an open-source tool that can be extended by anyone. If you
 are interested in contributing, please check out the
 https://github.com/neo4j-labs/neodash[Github repository].
 
 Aside from code contributions, we are also very happy to hear about how
-you use NeoDash. If you have a blog post, podcast or video of your graph
+you use LedgerCore. If you have a blog post, podcast or video of your graph
 dashboard, let us know!
 
-== 8. Can I get professional help with NeoDash?
+== 8. Can I get professional help with LedgerCore?
 
-If you are interested in a services agreement to support your NeoDash deployment, please reach out to the
+If you are interested in a services agreement to support your LedgerCore deployment, please reach out to the
 https://neo4j.com/professional-services/[Neo4j Services Team].

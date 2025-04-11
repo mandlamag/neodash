@@ -91,7 +91,7 @@ export interface GraphChartVisualizationProps {
     theme?: string;
   };
   /**
-   * The keys in 'engine' are related to the graph rendering engine (force-directed layout) or the NeoDash query engine.
+   * The keys in 'engine' are related to the graph rendering engine (force-directed layout) or the LedgerCore query engine.
    */
   engine: {
     layout: Layout;

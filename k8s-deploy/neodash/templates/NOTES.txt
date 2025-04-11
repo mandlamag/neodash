@@ -1,4 +1,4 @@
-The NeoDash application has been successfully deployed, here is the application URL:
+The LedgerCore application has been successfully deployed, here is the application URL:
 {{- if .Values.ingress.enabled }}
 {{- range $host := .Values.ingress.hosts }}
   {{- range .paths }}

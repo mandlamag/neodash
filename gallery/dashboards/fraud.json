@@ -19,7 +19,7 @@
           "x": 0,
           "y": 0,
           "title": "About this dashboard",
-          "query": "This is an example dashboard on financial crime data. It uses the `fincen` dataset from \n[https://demo.neo4jlabs.com/](https://demo.neo4jlabs.com/).\n\nThis dashboard's purpose is to provide examples on how to use and customize all the different NeoDash report types.\n\nIt consists of three pages:\n- **Countries**: high-level data on specific countries.\n- **Investigate Entity**: a way to drill down into a specific entity.\n- **Statistics**: high-level statistics about the data.\n\nTry out the Documentation 📄 button on the left for basic examples of the different visualization reports.",
+          "query": "This is an example dashboard on financial crime data. It uses the `fincen` dataset from \n[https://demo.neo4jlabs.com/](https://demo.neo4jlabs.com/).\n\nThis dashboard's purpose is to provide examples on how to use and customize all the different LedgerCore report types.\n\nIt consists of three pages:\n- **Countries**: high-level data on specific countries.\n- **Investigate Entity**: a way to drill down into a specific entity.\n- **Statistics**: high-level statistics about the data.\n\nTry out the Documentation 📄 button on the left for basic examples of the different visualization reports.",
           "width": 8,
           "type": "text",
           "height": 4,
@@ -59,8 +59,17 @@
           },
           "id": "5484e81c-52b2-416d-8b7f-fa112887fbec",
           "schema": [
-            ["Country", "code", "name", "location", "tld"],
-            ["TRANSFER", "amount"]
+            [
+              "Country",
+              "code",
+              "name",
+              "location",
+              "tld"
+            ],
+            [
+              "TRANSFER",
+              "amount"
+            ]
           ]
         },
         {
@@ -81,9 +90,24 @@
           },
           "id": "a4f84cff-996b-4bfd-b5de-2d8f0c9aa8b1",
           "schema": [
-            ["Country", "code", "name", "location", "tld"],
-            ["TRANSFER", "amount"],
-            ["Entity", "name", "location", "id", "country"]
+            [
+              "Country",
+              "code",
+              "name",
+              "location",
+              "tld"
+            ],
+            [
+              "TRANSFER",
+              "amount"
+            ],
+            [
+              "Entity",
+              "name",
+              "location",
+              "id",
+              "country"
+            ]
           ]
         }
       ]
@@ -151,7 +175,18 @@
             "hideSelections": true
           },
           "id": "6070f205-23ce-42bb-abc1-96ec3839e531",
-          "schema": [["Entity", "name", "location", "id", "country"], ["INTERACTS"]]
+          "schema": [
+            [
+              "Entity",
+              "name",
+              "location",
+              "id",
+              "country"
+            ],
+            [
+              "INTERACTS"
+            ]
+          ]
         },
         {
           "x": 0,
@@ -289,7 +324,9 @@
           "height": 4,
           "selection": {
             "x": "Year",
-            "value": ["Total"]
+            "value": [
+              "Total"
+            ]
           },
           "settings": {
             "marginLeft": 60

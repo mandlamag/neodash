@@ -7,7 +7,7 @@ import { themeNivo } from '../../../../chart/Utils';
 import { extensionEnabled } from '../../../../utils/ReportUtils';
 
 /**
- * Embeds a RadarChart (from Charts) into NeoDash.
+ * Embeds a RadarChart (from Charts) into LedgerCore.
  */
 const NeoRadarChart = (props: ChartProps) => {
   if (

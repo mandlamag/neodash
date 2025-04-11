@@ -8,7 +8,7 @@ import { themeNivo } from '../../../../chart/Utils';
 import RefreshButton from '../../component/RefreshButton';
 
 /**
- * Embeds a CirclePackaging (from Charts) into NeoDash.
+ * Embeds a CirclePackaging (from Charts) into LedgerCore.
  */
 const NeoCirclePackingChart = (props: ChartProps) => {
   if (props.records == null || props.records.length == 0 || props.records[0].keys == null) {

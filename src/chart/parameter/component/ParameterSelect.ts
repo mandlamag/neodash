@@ -7,7 +7,7 @@ export interface ParameterSelectProps {
    */
   parameterName: string;
   /**
-   * Display name of the parameter (e.g. neodash_person_name_display) - used by the NeoDash engine exclusively.
+   * Display name of the parameter (e.g. neodash_person_name_display) - used by the LedgerCore engine exclusively.
    */
   parameterDisplayName: string;
   /**
@@ -47,7 +47,7 @@ export interface ParameterSelectProps {
    */
   allParameters: Record<string, any> | undefined;
   /**
-   * Create the parameter selector in compatibility mode for NeoDash 2.2.1 or earlier.
+   * Create the parameter selector in compatibility mode for LedgerCore 2.2.1 or earlier.
    */
   compatibilityMode: boolean;
   /**

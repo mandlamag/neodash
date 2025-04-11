@@ -53,7 +53,7 @@ const NeoExtensionsModal = ({
                   >
                     Extensions
                   </TextLink>
-                  &nbsp;are a way of extending the core functionality of NeoDash with custom logic. This can be a new
+                  &nbsp;are a way of extending the core functionality of LedgerCore with custom logic. This can be a new
                   visualization, extra styling options for an existing visualization, or even a completely new logic for
                   the dashboarding engine.
                 </SectionContent>
@@ -156,7 +156,7 @@ const mapDispatchToProps = (dispatch) => ({
       createNotificationThunk(
         `Extension '${name}' Unavailable`,
         // eslint-disable-next-line no-multi-str
-        'This extension is not available in this version of NeoDash.\n  \
+        'This extension is not available in this version of LedgerCore.\n  \
      To learn more about expert extensions, check out the project documentation.'
       )
     ),

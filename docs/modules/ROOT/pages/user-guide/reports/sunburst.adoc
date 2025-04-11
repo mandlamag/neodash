@@ -17,7 +17,7 @@ visualization. It takes two fields:
 
 [source,cypher]
 ----
-MATCH path=(:Company{name:'NeoDash'})-[:HAS_DEPARTMENT*]->(:Department)
+MATCH path=(:Company{name:'LedgerCore'})-[:HAS_DEPARTMENT*]->(:Department)
 WITH nodes(path) as no
 WITH no, last(no) as leaf
 WITH  [n IN no[..-1] | n.name] AS result, sum(leaf.employees) as val

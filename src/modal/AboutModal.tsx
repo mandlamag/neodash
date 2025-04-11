@@ -20,13 +20,13 @@ export const NeoAboutModal = ({ open, handleClose, getDebugState }) => {
   return (
     <>
       <Dialog onClose={handleClose} open={open} aria-labelledby='form-dialog-title' size='large'>
-        <Dialog.Header>About NeoDash</Dialog.Header>
+        <Dialog.Header>About LedgerCore</Dialog.Header>
         <Dialog.Content>
           <div className='n-flex n-flex-col n-gap-token-4 n-divide-y n-divide-neutral-border-strong'>
             <Section>
               <SectionContent>
-                NeoDash is a dashboard builder for the Neo4j graph database. With NeoDash, all you need to do is write
-                Cypher queries, and you can build a dashboard in minutes.
+                LedgerCore is a dashboard builder for the Neo4j graph database. With LedgerCore, all you need to do is
+                write Cypher queries, and you can build a dashboard in minutes.
               </SectionContent>
             </Section>
             <Section>
@@ -52,7 +52,7 @@ export const NeoAboutModal = ({ open, handleClose, getDebugState }) => {
             <Section>
               <SectionTitle>Getting Started</SectionTitle>
               <SectionContent>
-                You will automatically start with an empty dashboard when starting up NeoDash for this first time.
+                You will automatically start with an empty dashboard when starting up LedgerCore for this first time.
                 <br />
                 Click the{' '}
                 <strong>
@@ -62,9 +62,9 @@ export const NeoAboutModal = ({ open, handleClose, getDebugState }) => {
               </SectionContent>
             </Section>
             <Section>
-              <SectionTitle>Extending NeoDash</SectionTitle>
+              <SectionTitle>Extending LedgerCore</SectionTitle>
               <SectionContent>
-                NeoDash is built with React and&nbsp;
+                LedgerCore is built with React and&nbsp;
                 <TextLink target='_blank' href='https://github.com/adam-cowley/use-neo4j'>
                   use-neo4j
                 </TextLink>
@@ -76,7 +76,7 @@ export const NeoAboutModal = ({ open, handleClose, getDebugState }) => {
                 <TextLink target='_blank' href='https://www.openstreetmap.org/'>
                   openstreetmap
                 </TextLink>{' '}
-                for the map view. You can also extend NeoDash with your own visualizations. Check out the developer
+                for the map view. You can also extend LedgerCore with your own visualizations. Check out the developer
                 guide in the{' '}
                 <TextLink target='_blank' href='https://github.com/neo4j-labs/neodash/'>
                   project repository

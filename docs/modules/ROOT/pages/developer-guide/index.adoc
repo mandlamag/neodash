@@ -8,7 +8,7 @@ include::../banner.adoc[]
 include::../banner.adoc[]
 
 
-This guide contains information for developers looking to deploy NeoDash, or extend it for their own needs. 
+This guide contains information for developers looking to deploy LedgerCore, or extend it for their own needs. 
 
 - link:build-and-run[Build & Run] 
 - link:configuration[Configuration]
@@ -21,12 +21,12 @@ This guide contains information for developers looking to deploy NeoDash, or ext
 - link:testing[Testing]
 - link:contributing[Contributing]
 
-== Prerequisites for extending NeoDash
+== Prerequisites for extending LedgerCore
 
-NeoDash is a web application written in TypeScript. Knowledge of React &
+LedgerCore is a web application written in TypeScript. Knowledge of React &
 Redux is also highly recommended when extending the application.
 Concretely, the following languages and frameworks make up the core of
-NeoDash: 
+LedgerCore: 
 
 - https://reactjs.org/[React] 
 - https://redux.js.org/[Redux] 

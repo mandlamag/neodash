@@ -9,11 +9,11 @@ development environment.
 
 == Run & Build using yarn
 
-NeoDash is built with React. You will need `yarn` installed to run the web
+LedgerCore is built with React. You will need `yarn` installed to run the web
 app.
 
 ____
-Use a recent version of `yarn` and `node` to build NeoDash. The
+Use a recent version of `yarn` and `node` to build LedgerCore. The
 application has been tested with yarn 1.22.17 & node v18.8.0.
 ____
 
@@ -59,7 +59,7 @@ without SSO).
 === To build the image yourself:
 
 Make sure you have a recent version of `docker` installed to build the
-multi-stage NeoDash image and run it.
+multi-stage LedgerCore image and run it.
 
 On Unix (Mac/Linux) systems:
 
@@ -82,7 +82,7 @@ docker run -it –rm -p 5005:5005 neodash
 
 === To deploy using YAML files
 
-YAML examples are available in the https://github.com/neo4j-labs/neodash[NeoDash repository]. Here is an example of a pod definition YAML file to create a NeoDash pod in a cluster:
+YAML examples are available in the https://github.com/neo4j-labs/neodash[LedgerCore repository]. Here is an example of a pod definition YAML file to create a LedgerCore pod in a cluster:
 
 ....
 apiVersion: v1
@@ -117,7 +117,7 @@ spec:
 
 === To deploy using a Helm Charts
 
-A Kubernetes Helm chart is available in the https://github.com/neo4j-labs/neodash[the NeoDash repository] and here is the full example of the Helm chart values.yaml file,
+A Kubernetes Helm chart is available in the https://github.com/neo4j-labs/neodash[the LedgerCore repository] and here is the full example of the Helm chart values.yaml file,
 
 ....
 # Name override or full name override

@@ -123,8 +123,8 @@ export default function NeoConnectionModal({
 
           {window.location.href.startsWith('https') && !(protocol.endsWith('+s') || protocol.endsWith('+scc')) ? (
             <div>
-              You're running NeoDash from a secure (https) webpage. You can't connect to a Neo4j database with an
-              unencrypted protocol. Change the protocol, or use NeoDash using http instead: &nbsp;
+              You're running LedgerCore from a secure (https) webpage. You can't connect to a Neo4j database with an
+              unencrypted protocol. Change the protocol, or use LedgerCore using http instead: &nbsp;
               <TextLink href={window.location.href.replace('https://', 'http://')}>
                 {window.location.href.replace('https://', 'http://')}
               </TextLink>

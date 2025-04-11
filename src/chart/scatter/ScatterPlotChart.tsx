@@ -8,7 +8,7 @@ import chroma from 'chroma-js';
 import { themeNivo } from '../Utils';
 
 /**
- * Embeds a Nivo ResponsiveScatterPlot and a ResponsiveScatterPlotCanvas into NeoDash.
+ * Embeds a Nivo ResponsiveScatterPlot and a ResponsiveScatterPlotCanvas into LedgerCore.
  */
 const NeoScatterPlot = (props: ChartProps) => {
   const POSSIBLE_TIME_FORMATS = ['years', 'months', 'weeks', 'days', 'hours', 'minutes', 'seconds', 'milliseconds'];

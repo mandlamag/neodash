@@ -1,4 +1,5 @@
-## NeoDash 2.4.10 - Community contributions
+## LedgerCore 2.4.10 - Community contributions
+
 - [#1039](https://github.com/neo4j-labs/neodash/pull/1039) - Fix default color scheme for bar charts
 - [#1038](https://github.com/neo4j-labs/neodash/pull/1038) - Fix rule-based styling for line charts
 - [#1036](https://github.com/neo4j-labs/neodash/pull/1036) - Fix table cell rule-based styling

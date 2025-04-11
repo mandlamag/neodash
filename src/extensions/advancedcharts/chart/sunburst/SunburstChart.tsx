@@ -6,7 +6,7 @@ import { NoDrawableDataErrorMessage } from '../../../../component/editor/CodeVie
 import { themeNivo } from '../../../../chart/Utils';
 import RefreshButton from '../../component/RefreshButton';
 /**
- * Embeds a SunburstChart (from Charts) into NeoDash.
+ * Embeds a SunburstChart (from Charts) into LedgerCore.
  */
 const NeoSunburstChart = (props: ChartProps) => {
   if (props.records == null || props.records.length == 0 || props.records[0].keys == null) {

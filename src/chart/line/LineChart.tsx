@@ -13,7 +13,7 @@ interface LineChartData {
 }
 
 /**
- * Embeds a LineReport (from Charts) into NeoDash.
+ * Embeds a LineReport (from Charts) into LedgerCore.
  */
 const NeoLineChart = (props: ChartProps) => {
   const POSSIBLE_TIME_FORMATS = ['years', 'months', 'weeks', 'days', 'hours', 'minutes', 'seconds', 'milliseconds'];

@@ -28,7 +28,7 @@ image::rulebasedstyling.png[Report]
 
 Conditions are always based on one of the return fields of the query.
 This can be a simple field (text, number) or a node property. Style
-rules are (as of NeoDash 2.1) always color-based.
+rules are (as of LedgerCore 2.1) always color-based.
 
 For example, the following rule will set the color of all `Warning`
 nodes to red:

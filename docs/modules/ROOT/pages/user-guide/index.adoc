@@ -4,14 +4,14 @@ include::../banner.adoc[]
 
 include::../banner.adoc[]
 
-The following pages contain everything you need to get started with NeoDash.
+The following pages contain everything you need to get started with LedgerCore.
 
 
-* link:../quickstart[Quickstart] tells you how to get started with NeoDash right away.
+* link:../quickstart[Quickstart] tells you how to get started with LedgerCore right away.
 * link:dashboards[Dashboards] elaborates on how dashboards are created and used in
-NeoDash.
+LedgerCore.
 * link:pages[Pages] explains how to manage pages inside a dashboard.
 * link:reports[Reports] contains information on how a report works, and lists the
 different types that can be used.
 * link:publishing[Publishing] explains how to publish a dashboard for others to view.
-* link:extensions[Extensions] lists the different extensions available for NeoDash.
+* link:extensions[Extensions] lists the different extensions available for LedgerCore.

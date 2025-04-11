@@ -20,7 +20,7 @@ export class Page {
   createNewDashboard() {
     cy.get('#form-dialog-title').then(($div) => {
       const text = $div.text();
-      if (text == 'NeoDash - Neo4j Dashboard Builder') {
+      if (text == 'LedgerCore - Neo4j Dashboard Builder') {
         cy.wait(100);
         // Create new dashboard
         cy.contains('New Dashboard').click();

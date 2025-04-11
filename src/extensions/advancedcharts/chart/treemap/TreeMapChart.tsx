@@ -9,7 +9,7 @@ import { themeNivo } from '../../../../chart/Utils';
 import RefreshButton from '../../component/RefreshButton';
 
 /**
- * Embeds a TreeMap (from Charts) into NeoDash.
+ * Embeds a TreeMap (from Charts) into LedgerCore.
  */
 const NeoTreeMapChart = (props: ChartProps) => {
   if (props.records == null || props.records.length == 0 || props.records[0].keys == null) {

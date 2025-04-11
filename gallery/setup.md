@@ -1,7 +1,7 @@
 ## Setting up the gallery back-end
 
-The NeoDash gallery is powered by a Neo4j Aura Enterprise instance, available at `acb5b6ae.databases.neo4j.io`.
-A set 
+The LedgerCore gallery is powered by a Neo4j Aura Enterprise instance, available at `acb5b6ae.databases.neo4j.io`.
+A set
 
 ### Create a read-only user to list dashboards.
 
@@ -16,7 +16,9 @@ GRANT MATCH {*} ON GRAPH neo4j NODE `_Neodash_Dashboard` TO gallery;
 ```
 
 ### Create read-only users for each of the use-cases.
+
 Bill of Materials:
+
 ```
 :use system;
 
@@ -34,6 +36,7 @@ GRANT MATCH {*} ON GRAPH neo4j RELATIONSHIP SIMILAR TO `bom`;
 ```
 
 Graph Assessment:
+
 ```
 :use system;
 
@@ -63,6 +66,7 @@ GRANT MATCH {*} ON GRAPH neo4j RELATIONSHIP HAS TO `assessment`;
 ```
 
 Domain Names:
+
 ```
 :use system;
 
@@ -84,6 +88,7 @@ GRANT MATCH {*} ON GRAPH neo4j RELATIONSHIP POSSEDE TO `domains`;
 ```
 
 Bitcoin:
+
 ```
 :use system;
 

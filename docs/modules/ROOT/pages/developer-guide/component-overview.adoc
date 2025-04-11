@@ -8,7 +8,7 @@ The image below contains a high-level overview of the component
 hierarchy within the application. The following conceptual building
 blocks are used to create the interface:
 
-image::component-hierarchy.png[NeoDash Component Hierarchy]
+image::component-hierarchy.png[LedgerCore Component Hierarchy]
 
 * *Application* - highest level in the component structure. Handles all
 application-level logic (e.g. initalizing the app).
@@ -45,7 +45,7 @@ charts, tables, graphs, etc.
 
 == A note on Cards v.s. Reports
 
-Whereas a user might associate a Card in NeoDash to a report directly,
+Whereas a user might associate a Card in LedgerCore to a report directly,
 the application has a more nuanced seggration of responsibilities:
 
 * The *Card* is responsible for positioning the component in a page.
