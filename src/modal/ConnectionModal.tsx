@@ -121,10 +121,10 @@ export default function NeoConnectionModal({
             </div>
           </div>
 
-          {window.location.href.startsWith('https') && !(protocol.endsWith('+s') || protocol.endsWith('+scc')) ? (
+          {/* {window.location.href.startsWith('http') && !(protocol.endsWith('+s') || protocol.endsWith('+scc')) ? (
             <div>
-              You're running LedgerCore from a secure (https) webpage. You can't connect to a Neo4j database with an
-              unencrypted protocol. Change the protocol, or use LedgerCore using http instead: &nbsp;
+              You're running LedgerCore from a secure (https) webpage. You can't connect to a Neo4j with an
+               protocol. Change the protocol, or use LedgerCore using http instead: &nbsp;
               <TextLink href={window.location.href.replace('https://', 'http://')}>
                 {window.location.href.replace('https://', 'http://')}
               </TextLink>
@@ -140,7 +140,7 @@ export default function NeoConnectionModal({
             <div>
               Neo4j Aura databases require a <code>neo4j+s</code> protocol. Your current configuration may not work.
             </div>
-          ) : null}
+          ) : null} */}
           {!standalone ? (
             <TextInput
               id='database'

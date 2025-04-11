@@ -140,7 +140,7 @@ const Application = ({
       <Suspense fallback=''>
         <NeoAboutModal open={aboutModalOpen} handleClose={onAboutModalClose} getDebugState={getDebugState} />
       </Suspense>
-      <NeoConnectionModal
+      {/* <NeoConnectionModal
         open={connectionModalOpen}
         connected={connected}
         dismissable={!standalone}
@@ -153,7 +153,7 @@ const Application = ({
         setConnectionProperties={setConnectionDetails}
         onConnectionModalClose={onConnectionModalClose}
         setWelcomeScreenOpen={setWelcomeScreenOpen}
-      ></NeoConnectionModal>
+      ></NeoConnectionModal> */}
       <NeoWelcomeScreenModal
         welcomeScreenOpen={welcomeScreenOpen}
         setWelcomeScreenOpen={setWelcomeScreenOpen}

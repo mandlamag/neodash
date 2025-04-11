@@ -25,7 +25,7 @@ export const NeoAboutModal = ({ open, handleClose, getDebugState }) => {
           <div className='n-flex n-flex-col n-gap-token-4 n-divide-y n-divide-neutral-border-strong'>
             <Section>
               <SectionContent>
-                LedgerCore is a dashboard builder for the Neo4j graph database. With LedgerCore, all you need to do is
+                LedgerCore is a dashboard for the Neo4j graph database. With LedgerCore, all you need to do is
                 write Cypher queries, and you can build a dashboard in minutes.
               </SectionContent>
             </Section>
